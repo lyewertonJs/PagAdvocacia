@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: fredoka;
+}
+
+.fundo-branco {
+  width: 75%;
+  height: 35px;
+  margin: 20px auto;
+}
+.fundo-branco h1 {
+  font-size: 32px;
+  margin: 20px;
+}
+
+.fundo-imagem1 {
+  background-image: url("img/capa.jpg");
+  height: 500px;
+  background-size: cover;
+}
+.fundo-imagem1 h2 {
+  font-size: 28px;
+  width: 75%;
+  text-align: right;
+  padding-top: 100px;
+}
+.fundo-imagem1 h3 {
+  font-size: 22px;
+  width: 75%;
+  text-align: right;
+}
+
+.sobre {
+  width: 75%;
+  margin: 20px auto;
+}
+.sobre h3 {
+  font-size: 22px;
+  padding: 20px 0;
+}
+.sobre p {
+  line-height: 25px;
+  text-align: left;
+  padding-bottom: 25px;
+  font-size: 18px;
+}
+.sobre .img {
+  width: 100%;
+  margin: 20px auto;
+}
+.sobre img {
+  height: 300px;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+.sobre .border-left {
+  margin: 40px auto;
+  border-left: 1px solid black;
+  padding: 0 15px;
+  font-size: 18px;
+}
+
+.fundo-imagem2 {
+  background-image: url("img/fundo.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 165px;
+}
+.fundo-imagem2 div {
+  height: 100%;
+  width: 100px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.fundo-imagem2 div h2 {
+  color: black;
+  background-color: white;
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.atuacao {
+  width: 75%;
+  margin: 20px auto;
+  padding: 50px;
+}
+.atuacao h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.atuacao p {
+  margin: 15px 0;
+  font-size: 18px;
+}
+.atuacao li {
+  line-height: 26px;
+  font-size: 18px;
+}
+
+.contato {
+  width: 75%;
+  margin: 0 auto;
+}
+.contato h3 {
+  font-size: 22px;
+  margin: 20px 0;
+}
+.contato div {
+  font-size: 18px;
+  line-height: 25px;
+  margin: 40px 0;
+}
+.contato div p a {
+  text-decoration: none;
+}
+iframe {
+  width: 100%;
+  padding-bottom: 50px;
+  border-radius: 15px;
+}
